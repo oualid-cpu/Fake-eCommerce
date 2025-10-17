@@ -12,7 +12,7 @@ export const formatPrice = (n) => EUR.format(n);
 
 //---------Fetch------------------------------
 
-// tiny helper (same idea as your fetch)
+// 
 async function fetchJSON(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
